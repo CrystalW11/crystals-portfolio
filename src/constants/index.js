@@ -154,28 +154,25 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "This looks fantastic!",
+    testimonial: "Wow Crystal! This is amazing! Nicely Done!",
     name: "Kimberly August",
-    designation: "Former Owner",
+    designation: "COO",
     company: "August Mortgage Corporation",
-    image: "noname.jpg",
+    image: "https://www.linkedin.com/in/kimberly-august-64ab0645/",
   },
   {
-    testimonial:
-      "Example",
-    name: "Example",
-    designation: "Example ",
-    company: "Example",
-    image: "https://noname.jpg",
+    testimonial: "Good Job!",
+    name: "Neil Hinch",
+    designation: "Senior Mortgage Examiner, Lead Compliance Analyst ",
+    company: "Clayton Holdings, LLC",
+    image: "https://www.linkedin.com/in/neil-hinch-76518936/",
   },
   {
-    testimonial:
-      "Example 2",
-    name: "Example  Wang",
-    designation: "Example ",
-    company: "Example",
-    image: "https://noname/6.jpg",
+    testimonial: "Great Work!",
+    name: "Darren Palladino",
+    designation: "AVP, Business Operations ",
+    company: "SitusAMC",
+    image: "https://www.linkedin.com/in/darren-palladino-1b592b12a/",
   },
 ];
 
