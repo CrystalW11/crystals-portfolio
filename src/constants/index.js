@@ -89,6 +89,75 @@ const technologies = [
   },
 ];
 
+const projects = [
+  {
+    name: "Plant Store",
+    description:
+      "Store where individuals may purchase succulent plants. Developed application implementing mouse over picture using CSS, to see different plants to purchase. Created pop-up for user to accept cookies to retain user data.",
+
+    tags: [
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Web-Fundamentals",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cookies",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: easybay,
+    source_code_link:
+      "https://github.com/CrystalW11/Crystal-s-Technical-Projects/blob/main/EasyBay.zip",
+  },
+  {
+    name: "Pizza Time",
+    description:
+      "(Group Project) A place where people can create their own pizza to order and have it delivered or carry-out. Created and implemented login registration using foreign key and many-to-many relationship database tables using Bootstrap, Bcrypt, MySQL, Flask, HTTPS methods. Implemented GPS API, hidden input, and form, modularize using models & controllers, Jinja, and Emmet for delivery location.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pizzatime,
+    source_code_link: "https://github.com/DriftingShade/Pizza-Time",
+  },
+  {
+    name: "Speedy Meals",
+    description:
+      "Social platform for fast meals made in under 30 minutes to share with others. Developed application implementing CRUD, Atlas MongoDB, Mongoose cluster to store meal collections using Bootstrap, form, modularizing using models & controllers, Axios API, Express, React Library and Node.js.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap & CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: speedymeals,
+    source_code_link:
+      "https://github.com/CrystalW11/Crystal-s-Technical-Projects/blob/main/speedy-meals.zip",
+  },
+];
+
 const experiences = [
   {
     title: "CRE Compliance Underwriter (Remote)",
@@ -176,73 +245,6 @@ const testimonials = [
   },
 ];
 
-const projects = [
-  {
-    name: "Plant Store",
-    description:
-      "Store where individuals may purchase succulent plants. Developed application implementing mouse over picture using CSS, to see different plants to purchase. Created pop-up for user to accept cookies to retain user data.",
 
-    tags: [
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Web-Fundamentals",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Cookies",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: easybay,
-    source_code_link:
-      "https://github.com/CrystalW11/Crystal-s-Technical-Projects/blob/main/EasyBay.zip",
-  },
-  {
-    name: "Pizza Time",
-    description:
-      "(Group Project) A place where people can create their own pizza to order and have it delivered or carry-out. Created and implemented login registration using foreign key and many-to-many relationship database tables using Bootstrap, Bcrypt, MySQL, Flask, HTTPS methods. Implemented GPS API, hidden input, and form, modularize using models & controllers, Jinja, and Emmet for delivery location.",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MySQL",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: pizzatime,
-    source_code_link: "https://github.com/DriftingShade/Pizza-Time",
-  },
-  {
-    name: "Speedy Meals",
-    description:
-      "Social platform for fast meals made in under 30 minutes to share with others. Developed application implementing CRUD, Atlas MongoDB, Mongoose cluster to store meal collections using Bootstrap, form, modularizing using models & controllers, Axios API, Express, React Library and Node.js.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Bootstrap & CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: speedymeals,
-    source_code_link:
-      "https://github.com/CrystalW11/Crystal-s-Technical-Projects/blob/main/speedy-meals.zip",
-  },
-];
 
 export { services, technologies, experiences, testimonials, projects };
