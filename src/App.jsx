@@ -20,6 +20,7 @@ const App = () => {
             <Contact />
             <StarsCanvas />
           </div>
+          <p> If this does not work from you android phone, download the Firefox browser app.</p>
         </div>
       </BrowserRouter>
     </>
