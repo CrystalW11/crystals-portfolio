@@ -13,6 +13,23 @@
   color-scheme: dark;
 }
 
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* Prevent scrolling */
+}
+
+.hero-section {
+  position: relative;
+  width: 100vw;
+  /* Ensure full width */
+  height: 100vh;
+  /* Ensure full height */
+}
+
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
