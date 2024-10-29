@@ -40,7 +40,15 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <>
+    <div
+      style={{
+        backgroundImage: `url(${herobg})`, // Set the background image
+        backgroundSize: "cover", // Cover the entire div
+        backgroundPosition: "center", // Center the image
+        height: "100vh", // Set height to full viewport height or adjust as needed
+        padding: "20px", // Add some padding if necessary
+        color: "white", // Change text color for better visibility
+      }}>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -61,8 +69,7 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-      <div style={{ backgroundColor: "red", height: "10px" }}></div>
-    </>
+    </div>
   );
 };
 
