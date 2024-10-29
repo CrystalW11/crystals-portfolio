@@ -13,6 +13,14 @@
   color-scheme: dark;
 }
 
+body,
+html {
+  overflow: auto;
+  /* Ensure scrolling is enabled */
+  height: auto;
+  /* Ensure height is not constrained */
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
