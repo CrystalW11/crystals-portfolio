@@ -1,6 +1,6 @@
 /** @format */
 import React from "react";
-import Tilt from "react-tilt";
+import { Tilt } from 'react-tilt'; // If Tilt is a named export
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
