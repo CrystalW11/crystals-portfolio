@@ -9,6 +9,8 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import herobg from "../assets/herobg.png"; // Adjust the path based on your folder structure
+
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
@@ -39,6 +41,16 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
+      <div 
+      style={{ 
+        backgroundImage: `url(${herobg})`, 
+        backgroundSize: 'cover', // This will cover the entire div
+        backgroundPosition: 'center', // Center the image
+        padding: '20px' // Optional: Add some padding for better appearance
+      }} 
+      className="about-section"
+      >
+    </div>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -59,6 +71,7 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+      <div style={{ backgroundColor: "red", height: "10px" }}></div>
     </>
   );
 };
