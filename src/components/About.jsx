@@ -41,16 +41,6 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <div 
-      style={{ 
-        backgroundImage: `url(${herobg})`, 
-        backgroundSize: 'cover', // This will cover the entire div
-        backgroundPosition: 'center', // Center the image
-        padding: '20px' // Optional: Add some padding for better appearance
-      }} 
-      className="about-section"
-      >
-    </div>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
