@@ -41,20 +41,6 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <div style={{ position: "relative", height: "100vh", padding: "20px" }}>
-        <img
-          src={herobg}
-          alt="Hero Background"
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            objectFit: "cover", // Cover the entire area without distortion
-            zIndex: -1, // Send the image behind other content
-          }}
-        />
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Introduction</p>
           <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -73,7 +59,6 @@ const About = () => {
             <ServiceCard key={service.title} index={index} {...service} />
           ))}
         </div>
-      </div>
     </>
   );
 };
