@@ -7,6 +7,7 @@ import herobg from ".../assets/herobg.png"
 import * as THREE from 'three'; // Import THREE for texture loading
 
 
+
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
@@ -91,4 +92,4 @@ const ComputersCanvas = () => {
   );
 };
 
-export default ComputersCanvas;
+export { default as ComputersCanvas } from "./ComputersCanvas";
