@@ -3,10 +3,6 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-import herobg from ".../assets/herobg.png"
-import * as THREE from 'three'; // Import THREE for texture loading
-
-
 
 import CanvasLoader from "../Loader";
 
@@ -72,18 +68,6 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-
-        {/* Add the background plane directly here */}
-        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -3.5, -5]}>
-          <planeGeometry args={[100, 100]} />
-          <meshBasicMaterial
-            map={new THREE.TextureLoader().load(herobg)}
-            transparent={true}
-            opacity={1}
-          />
-        </mesh>
-
-        {/* Render the Computers model */}
         <Computers isMobile={isMobile} />
       </Suspense>
 
@@ -92,4 +76,4 @@ const ComputersCanvas = () => {
   );
 };
 
-export { default as ComputersCanvas } from "./ComputersCanvas";
+export default ComputersCanvas;
