@@ -1,8 +1,12 @@
 import { BrowserRouter } from "react-router-dom";
 
-import {About,Contact,Experience,Feedbacks,Hero,Navbar,Tech,Works,StarsCanvas} from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { initThreeScene } from "./utils/threeSetup"; // Import your setup function
 
 const App = () => {
+  // Optionally initialize your Three.js scene here
+  initThreeScene();
+
   return (
     <>
       <BrowserRouter>
